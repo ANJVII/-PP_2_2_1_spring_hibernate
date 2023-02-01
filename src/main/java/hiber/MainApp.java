@@ -24,6 +24,7 @@ public class MainApp {
 
         User user2 = new User("User2", "Lastname2", "user2@mail.ru");
         Car car2 = new Car("Model2", 321);
+        car2.setUser(user2);
         user2.setCar(car2);
         userService.add(user2);
 
